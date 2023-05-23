@@ -1,0 +1,28 @@
+ 
+  <form>
+    <label for="txtSearch">Search: 
+   <input type="text" id="txtSearch" on:input="search"/>
+   </label>
+    <label>Price range: </label>
+    <label>$<input type="checkbox" value="$" on:click="filterRestaurants"/></label>
+    <label>$$<input type="checkbox" value="$$" on:click="filterRestaurants"/></label>
+    <label>$$$<input type="checkbox" value="$$$" on:click="filterRestaurants"/></label>
+    <label>$$$$<input type="checkbox" value="$$$$" on:click="filterRestaurants"/></label>
+    <button class="clear-button" type="button" on:click="clearFilters">Clear</button>
+  </form>
+  <div class="restaurant-list">
+    "#each restaurants as r"
+
+      <a href="/order/1"> 
+      <div class="card">
+        <div class="card--title">
+        <h2>"r.name"</h2>
+        <span>"r.priceRange"</span>
+        </div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Barbieri_-_ViaSophia25668.jpg/1200px-Barbieri_-_ViaSophia25668.jpg" alt="r.imageDescription" />
+        <p class="description">"r.description"</p>
+      </div>
+    </a>
+    "/each"
+  </div>
+ 

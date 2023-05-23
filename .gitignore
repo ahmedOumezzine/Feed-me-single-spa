@@ -1,0 +1,6 @@
+# Dependency directories
+about/node_modules/
+container/node_modules/
+order/node_modules/
+restaurants/node_modules/
+root-config/node_modules/

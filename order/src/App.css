@@ -1,0 +1,75 @@
+>main {
+    text-align: center;
+    padding: 1em;
+    max-width: 240px;
+    margin: 0 auto;
+  }
+  #order {
+    max-width: 1150px;
+    margin: 0 auto;
+  }
+  .restaurant-name {
+    color: #ff3e00;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 100;
+  }
+  @media (min-width: 640px) {
+    main {
+      max-width: none;
+    }
+  }
+  .order-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu-section {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    font-size: 25px;
+  }
+  .restaurant-section {
+    max-width: 100%;
+  }
+  .menu-item {
+    list-style: none;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  .dish-price {
+    display: inline-block;
+    padding: 0px 5px;
+    margin-bottom: 10px;
+  }
+  .order-button {
+    padding: 10px 15px;
+    margin-top: 15px;
+    align-self: flex-end;
+    border: none;
+    background-color: rgb(231, 150, 82);
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .quantity-buttons {
+    margin-left: 20px;
+  }
+  .quantity {
+    display: inline-block;
+    padding: 0px 5px;
+    margin-bottom: 10px;
+  }
+  .amount {
+    display: inline-block;
+    padding: 0px 5px;
+    margin-bottom: 10px;
+    min-width: 55px;
+  }
+  .total {
+    align-self: flex-end;
+    font-size: 30px;
+    margin: 50px 0px 0px;
+  }
