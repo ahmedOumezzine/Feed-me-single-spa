@@ -33,7 +33,7 @@
               "libraryName": "MyFirstApp",
               "libraryTarget": "umd"
             },
-            "deployUrl": "http://localhost:4201/"
+            "deployUrl": "http://localhost:4200/"
           },
           "configurations": {
             "production": {
@@ -103,6 +103,6 @@
     }
   },
   "cli": {
-    "analytics": "40ca7591-9809-4f7e-b543-a9a1a7022ce0"
+    "analytics": "8bd6472c-a009-4527-a600-fe59936f61c8"
   }
 }
